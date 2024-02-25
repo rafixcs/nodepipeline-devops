@@ -1,4 +1,4 @@
-FROM node:12
+FROM node:18
 RUN apt-get update 
 RUN apt-get install git -y
 RUN apt-get install imagemagick -y
